@@ -1,0 +1,102 @@
+body{
+  text-align: center !important;
+  padding: 20px;
+  margin: 0;
+  font-family:'Times New Roman', Times, serif;
+  background-color: black;
+  color: white;
+}
+.top-page, .brief, .mail, .skills{
+  font-family:'Times New Roman', Times, serif;
+}
+.top-page{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1300px;
+}
+.avatar{
+  width: 380px;
+  border-radius: 500px;
+}
+.title{
+  font-size: 20px;
+}
+.title:hover{
+  cursor: pointer;
+  color: #890755;
+}
+.hello{
+  width: 100px ;
+  font-size: 15px;
+  background-color: white;
+  color:  #890755;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: #890755;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-left: 15px;
+}
+.hello:hover{
+  cursor: pointer;
+  background-color: #890755;
+  color: white;
+}
+.brief{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #890755;
+  height: 500px;
+  border-radius: 10px;
+}
+.intro{
+  margin-top: 20px;
+  max-width: 600px;
+  font-size: 17px;
+}
+.info{
+  max-width: 400px;
+  margin: 0 auto;
+  font-size: 17px;
+}
+.skills{
+  display: block;
+  font-size: 17px;
+  max-width: 1100px;
+  margin: -95px auto 10px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+i{
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #890755;
+  color: white;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+i:hover{
+  transform: scale(0.85);
+}
+.email{
+  color: #890755;
+}
+.position, .language, .tools{
+  color: #890755;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.work{
+  margin-top: 50px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}

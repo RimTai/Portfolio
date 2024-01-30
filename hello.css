@@ -4,14 +4,14 @@ body{
   margin-top: 10px;
   text-align: center !important;
 }
-.name, .visitor-email{
+.contactInfo__name, .contactInfo__visitor-email{
   width: 280px;
   padding-top: 15px;
   padding-bottom: 15px;
   margin-bottom: 30px;
   margin-right: 15px;
 }
-.message, .name, .visitor-email{
+.message, .contactInfo__name, .contactInfo__visitor-email{
   border: 2px solid #890755;
   border-radius: 6px;
   font-family:'Times New Roman', Times, serif;

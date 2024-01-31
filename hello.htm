@@ -5,15 +5,19 @@
     <link rel="stylesheet" href="hello.css" />
     <script>
       function goBack() {
-        window.location.href = 'prof.htm';
+        window.location.href = 'index.html';
       }
     </script>
   </head>
   <body>
     <h2 class="contactus">Contact Us</h2>
-    <div class="contact-info">
-      <input class="name" type="text" placeholder="Name" />
-      <input class="visitor-email" type="text" placeholder="Email" /><br />
+    <div class="contactInfo">
+      <input class="contactInfo__name" type="text" placeholder="Name" />
+      <input
+        class="contactInfo__visitor-email"
+        type="text"
+        placeholder="Email"
+      /><br />
     </div>
     <textarea class="message" placeholder="Message"></textarea><br />
     <button class="submit">SUBMIT</button>

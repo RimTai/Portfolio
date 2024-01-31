@@ -27,7 +27,6 @@ body{
 }
 .avatar{
   width: 35%;
-  height: auto;
   border-radius: 31.5em;
 }
 .top__title{
@@ -63,6 +62,9 @@ body{
   margin-top: 1em;
   font-size: 1.2em;
   max-width: 31.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  /* padding:  0 1em 0; */
 }
 .skills__aboutme{
   max-width: 25em;

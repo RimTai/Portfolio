@@ -3,8 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
-  width: 100%;
-
 }
 body{
   background-color: black;
@@ -138,8 +136,8 @@ i{
 i:hover{
   transform: scale(0.85);
 }
-@media screen and (max-width: 769px){
+/* @media screen and (max-width: 1400px) {
   .avatar {
-    width: 210px;
-}
-}
+    width: 60%;
+  }
+} */

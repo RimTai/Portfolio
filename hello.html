@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="hello.css" />
     <script>
       function goBack() {
-        window.location.href = 'index.htm';
+        window.location.href = 'index.html';
       }
     </script>
   </head>
@@ -14,13 +14,15 @@
     <div class="contactInfo">
       <input class="contactInfo__name" type="text" placeholder="Name" />
       <input
-        class="contactInfo__visitor-email"
+        class="contactInfo__visitorEmail"
         type="text"
         placeholder="Email"
-      /><br />
+      />
     </div>
-    <textarea class="message" placeholder="Message"></textarea><br />
-    <button class="submit">SUBMIT</button>
+    <div class="message">
+      <textarea class="message__text" placeholder="Message"></textarea><br />
+      <button class="message__submit">SUBMIT</button>
+    </div>
     <button class="back" onclick="goBack()">BACK</button>
   </body>
 </html>

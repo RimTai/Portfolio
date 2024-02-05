@@ -83,13 +83,14 @@ body{
 .skills__aboutme, .skills__languageList, .skills__toolsList{
   margin-top: 0.6em;
 }
+.startup__container{
+  background-color: red;
+  /* width: 20em; */
+}
 .startup{
   margin-top: 3em;
 }
-.startup__myemail{
-  color: #890755;
-}
-.startup__title, .network__title, .database__title{
+.startup__myemail, .startup__title, .network__title, .database__title{
   color:#890755;
 }
 .projects{

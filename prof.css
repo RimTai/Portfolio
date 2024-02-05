@@ -2,13 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 body{
   background-color: black;
   color: white;
+  font-size: 1.1em;
+  line-height: 1.5;
 }
-.intro, .bio, .mail, .skills{
+.intro, .bio, .mail, .skills, .startup, .social, .network, .database{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,20 +20,14 @@ body{
 }
 .top{
   margin-top: 1em;
-  margin-bottom: 1.5rem;
   margin-right: 1em;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   max-width: 100%;
 }
-.avatar{
-  width: 35%;
-  height: auto;
-  border-radius: 31.5em;
-}
 .top__title{
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 .top__title:hover{
   cursor: pointer;
@@ -45,8 +41,7 @@ body{
   border-radius: 2.5em;
   border-style: solid;
   border-color: #890755;
-  padding-top: 0.7em;
-  padding-bottom: 0.7em;
+  padding: 0.7em 0;
   margin-left: 1em;
 }
 .top__hello:hover{
@@ -54,50 +49,87 @@ body{
   background-color: #890755;
   color: white;
 }
+.intro{
+  margin-top: 1.9em;
+}
+.avatar{
+  width: 28em;
+  border-radius: 30em;
+}
 .bio{
   background-color: #890755;
-  height: 31.25em;
+  height: 23em;
   border-radius: 0.4em;
 }
 .bio__aboutme{
-  margin-top: 1em;
-  font-size: 1.2em;
-  max-width: 31.5em;
+  max-width: 40em;
+  padding:  0 1em 2em;
 }
 .skills__aboutme{
   max-width: 25em;
-  font-size: 1.2em;
 }
 .skills{
-  font-size: 1.2em;
-  max-width: 90%;
-  margin: -90px auto 1em;
+  width: 90%;
+  margin: -2.8em auto 1em;
   background-color: white;
   color: black;
-  padding: 1em;
+  padding: 0.9em 1em;
   border-radius: 1em;
 }
-i{
+.skills__position, .skills__language, .skills__tools{
+  color: #890755;
   margin-top: 1em;
-  margin-bottom: 1em;
-  padding: 0.6em;
+}
+.skills__aboutme, .skills__languageList, .skills__toolsList{
+  margin-top: 0.6em;
+}
+.startup{
+  margin-top: 3em;
+}
+.startup__myemail{
+  color: #890755;
+}
+.startup__title, .network__title, .database__title{
+  color:#890755;
+}
+.projects{
+  align-items: baseline;
+  text-align: center;
+  margin-top: 1em;
+}
+.network, .database{
+  display: inline-flex;
+  padding: 2em 2em;
+  margin: 2em 1.2em;
+  height: 13em;
+  border: 0.3em solid #890755;
+  border-top-color: white;
+  border-bottom-color: white;
+  border-radius: 1em;
+}
+.network__text, .database__text{
+  margin-top: 0.5em;
+}
+.social{
   background-color: #890755;
-  color: white;
-  border-radius: 50%;
+  padding-top: 1em;
+  margin-top: 4em;
+}
+i{
+  width:  2.5em;
+  height: 2.5em;
+  margin: 1em 0.1em;
+  padding: 0.75em 0.6em;
+  background-color: white;
+  color: #890755;
+  border-radius: 30em;
   transition: all 0.3s ease;
 }
 i:hover{
   transform: scale(0.85);
 }
-.mail__myemail{
-  color: #890755;
+@media screen and (max-width: 70em){
+  .avatar {
+    width: 25em;
 }
-.skills__position, .skills__language, .skills__tools{
-  color: #890755;
-  margin-bottom: 1em;
-  margin-top: 1em;
 }
-.mail__recentwork{
-  margin-top: 3em;
-}
-

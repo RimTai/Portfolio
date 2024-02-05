@@ -1,52 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 body{
   background-color: black;
   color: white;
-  margin-top: 10px;
-  text-align: center !important;
-}
-.contactInfo__name, .contactInfo__visitor-email{
-  width: 280px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-bottom: 30px;
-  margin-right: 15px;
-}
-.message, .contactInfo__name, .contactInfo__visitor-email{
-  border: 2px solid #890755;
-  border-radius: 6px;
-  font-family:'Times New Roman', Times, serif;
-}
-.message{
-  resize: none;
-  width: 500px;
-  height: 340px;
-  align-items: center;
-}
-.submit, .back{
-  width: 100px;
-  background-color: #890755;
-  color: white;
-  font-size: 14px;
-  font-family:'Times New Roman', Times, serif;
-  border-radius: 40px;
-  border-style: solid;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 10px;
 }
 .contactus{
   color: #890755;
+  margin-top: 1em;
+}
+.contactInfo, .message, .contactus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.message__text, .contactInfo__name, .contactInfo__visitorEmail{
+  border: 0.2em solid #890755;
+  border-radius: 0.38em;
+}
+.contactInfo__name, .contactInfo__visitorEmail{
+  width: 17.5em;
+  padding: 1em 1em;
+  margin-top: 0.8em;
+}
+.message__text{
+  resize: none;
+  width: 31.5em;
+  height: 21.5em;
+  padding: 1em 0.5em;
+  margin-top: 2em;
+}
+.message__submit, .back{
+  width: 6.5em;
+  background-color: #890755;
+  color: white;
+  font-size: 0.9em;
+  border-radius: 2.5em;
+  border-style: solid;
+  padding: 0.4em 0.65em;
 }
 .back{
   position: absolute;
   top: 0;
-  right: 25px;
-  margin-top: 15px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 80px;
+  right: 1.57em;
+  margin-top: 1em;
+  width: 5em;
 }
-.back:hover, .submit:hover{
+.back:hover, .message__submit:hover{
   cursor: pointer;
-  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0.5em 1em rgba(255, 255, 255, 0.15);
 }

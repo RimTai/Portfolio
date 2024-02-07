@@ -107,6 +107,7 @@ body{
   justify-content: start;
   padding: 1.5em 1em;
   margin: 2em 1.2em;
+  max-width: 25em;
   height: 14em;
   border-radius: 1em;
   border: 0.3em solid #025aa2;

@@ -10,6 +10,9 @@ body{
   font-size: 1.1em;
   line-height: 1.5;
 }
+.blue__color{
+  color:  #0f5d9d;
+}
 .intro, .bio, .mail, .skills, .startup, .social, .network, .database{
   display: flex;
   flex-direction: column;
@@ -17,9 +20,6 @@ body{
   text-align: center;
   justify-content: center;
   width: 100%;
-}
-.top__hello, .skills__position, .skills__language, .skills__tools, .startup__myemail, .startup__title, .network__title, .database__title{
-  color:  #0f5d9d;
 }
 .bio, .social{
   background-color: #025aa2;
@@ -75,6 +75,7 @@ body{
 }
 .bio__aboutme{
   padding: 0 1em 2em;
+  max-width: 40em;
 }
 .skills{
   width: 80%;
@@ -83,6 +84,13 @@ body{
   padding: 0 1em;
   border-radius: 1em;
   border: 0.3em solid white;
+}
+.skills__aboutme{
+  max-width: 25em;
+}
+.skills__toolsList{
+  list-style-type: none;
+  padding: 0;
 }
 .startup__container{
   max-width: 35em;

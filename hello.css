@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 body{
@@ -8,7 +9,7 @@ body{
   color: white;
 }
 .contactus{
-  color: #890755;
+  color: #0f5d9d;
   margin-top: 1em;
 }
 .contactInfo, .message, .contactus{
@@ -19,7 +20,7 @@ body{
   text-align: center;
 }
 .message__text, .contactInfo__name, .contactInfo__visitorEmail{
-  border: 0.2em solid #890755;
+  border: 0.2em solid #025aa2;
   border-radius: 0.38em;
 }
 .contactInfo__name, .contactInfo__visitorEmail{
@@ -36,18 +37,18 @@ body{
 }
 .message__submit, .back{
   width: 6.5em;
-  background-color: #890755;
+  background-color: #025aa2;
   color: white;
   font-size: 0.9em;
   border-radius: 2.5em;
   border-style: solid;
   padding: 0.4em 0.65em;
+  margin-top: 1em;
 }
 .back{
   position: absolute;
   top: 0;
   right: 1.57em;
-  margin-top: 1em;
   width: 5em;
 }
 .back:hover, .message__submit:hover{

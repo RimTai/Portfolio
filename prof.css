@@ -10,6 +10,9 @@ body{
   font-size: 1.1em;
   line-height: 1.5;
 }
+.blue__color{
+  color:  #0f5d9d;
+}
 .intro, .bio, .mail, .skills, .startup, .social, .network, .database{
   display: flex;
   flex-direction: column;
@@ -18,12 +21,17 @@ body{
   justify-content: center;
   width: 100%;
 }
-.top{
+.bio, .social{
+  background-color: #025aa2;
+}
+.top, .skills__position, .skills__language, .skills__tools, .projects{
   margin-top: 1em;
+}
+.top{
   margin-right: 1em;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: baseline;
   max-width: 100%;
 }
 .top__title{
@@ -31,90 +39,88 @@ body{
 }
 .top__title:hover{
   cursor: pointer;
-  color: #890755;
+  color: #0f5d9d;
 }
 .top__hello{
   width: 6.35em ;
   font-size: 1em;
   background-color: white;
-  color:  #890755;
   border-radius: 2.5em;
   border-style: solid;
-  border-color: #890755;
-  padding: 0.7em 0;
+  border-color: #025aa2;
+  padding: 0.4em 0;
   margin-left: 1em;
 }
 .top__hello:hover{
   cursor: pointer;
-  background-color: #890755;
+  background-color: #025aa2;
   color: white;
 }
-.intro{
-  margin-top: 1.9em;
+.avatar, .bio{
+  margin-top: 2.3em;
 }
 .avatar{
-  width: 28em;
-  border-radius: 30em;
+  width: 18em;
+  border-radius: 20em;
+  border: 0.3em solid #025aa2;
+  border-bottom-color: white;
+}
+.intro{
+  margin-top: 1.3em;
 }
 .bio{
-  background-color: #890755;
   height: 23em;
   border-radius: 0.4em;
+  border: 0.3em solid white;
 }
 .bio__aboutme{
+  padding: 0 1em 2em;
   max-width: 40em;
-  padding:  0 1em 2em;
+}
+.skills{
+  width: 80%;
+  margin: -2.8em auto 1em;
+  background-color: black;
+  padding: 0 1em;
+  border-radius: 1em;
+  border: 0.3em solid white;
 }
 .skills__aboutme{
   max-width: 25em;
 }
-.skills{
-  width: 90%;
-  margin: -2.8em auto 1em;
-  background-color: white;
-  color: black;
-  padding: 0.9em 1em;
-  border-radius: 1em;
-}
-.skills__position, .skills__language, .skills__tools{
-  color: #890755;
-  margin-top: 1em;
-}
-.skills__aboutme, .skills__languageList, .skills__toolsList{
-  margin-top: 0.6em;
+.skills__toolsList{
+  list-style-type: none;
+  padding: 0;
 }
 .startup__container{
-  background-color: red;
-  /* width: 20em; */
+  max-width: 35em;
+  padding: 0 0.5em;
 }
 .startup{
   margin-top: 3em;
 }
-.startup__myemail, .startup__title, .network__title, .database__title{
-  color:#890755;
-}
 .projects{
-  align-items: baseline;
   text-align: center;
-  margin-top: 1em;
 }
 .network, .database{
   display: inline-flex;
-  padding: 2em 2em;
+  justify-content: start;
+  padding: 1.5em 1em;
   margin: 2em 1.2em;
-  height: 13em;
-  border: 0.3em solid #890755;
+  height: 14em;
+  border-radius: 1em;
+  border: 0.3em solid #025aa2;
   border-top-color: white;
   border-bottom-color: white;
-  border-radius: 1em;
 }
 .network__text, .database__text{
-  margin-top: 0.5em;
+  padding-top: 0.5em;
 }
 .social{
-  background-color: #890755;
   padding-top: 1em;
   margin-top: 4em;
+  border: 0.1em solid;
+  border-top-color:white;
 }
 i{
   width:  2.5em;
@@ -122,7 +128,7 @@ i{
   margin: 1em 0.1em;
   padding: 0.75em 0.6em;
   background-color: white;
-  color: #890755;
+  color: #0f5d9d;
   border-radius: 30em;
   transition: all 0.3s ease;
 }
@@ -131,6 +137,6 @@ i:hover{
 }
 @media screen and (max-width: 70em){
   .avatar {
-    width: 25em;
+    width: 18em;
 }
 }

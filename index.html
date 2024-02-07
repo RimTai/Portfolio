@@ -17,23 +17,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script>
-      function contactUS() {
-        window.location.href = 'hello.html';
-      }
-    </script>
   </head>
   <body>
     <div class="top">
       <p class="top__title">Intern</p>
-      <button class="top__hello" onclick="contactUS()">Say Hello</button>
+      <a href="hello.html">
+        <button class="top__hello blue__color">Say Hello</button>
+      </a>
     </div>
     <div class="intro">
       <h2>Beginner Frontend Developer</h2>
       <h3>
         I design and code beautifully simple things, and I love what I do.
       </h3>
-      <img class="avatar" src="avatar.png" />
+      <img class="avatar" src="avatarBlue.png" alt="Avatar" />
     </div>
     <div class="bio">
       <h1 class="bio__name">Hi, I am Rim Tai</h1>
@@ -47,27 +44,27 @@
       </p>
     </div>
     <div class="skills">
-      <h3 class="skills__position">Frontend Developer</h3>
+      <h3 class="skills__position blue__color">Frontend Developer</h3>
       <p class="skills__aboutme">
         I like to code things from scratch, and enjoy bringing ideas to life in
         the browser.
       </p>
-      <h4 class="skills__language">Languages I Use:</h4>
+      <h4 class="skills__language blue__color">Languages I Use:</h4>
       <p class="skills__languageList">JavaScript, Python, HTML, CSS</p>
-      <h4 class="skills__tools">Dev Tools:</h4>
-      <p class="skills__toolsList">
-        Github<br />
-        Netlify<br />
-        VSCode
-      </p>
+      <h4 class="skills__tools blue__color">Dev Tools:</h4>
+      <ul class="skills__toolsList">
+        <li class="git">Github</li>
+        <li class="net">Netlify</li>
+        <li class="vs">VSCode</li>
+      </ul>
     </div>
     <div class="startup">
       <div class="startup__container">
-        <h3 class="startup__title">My Startup Projects</h3>
+        <h3 class="startup__title blue__color">My Startup Projects</h3>
         <p>
           Here are a few startup projects I've worked on. Want to see more?
           <a
-            class="startup__myemail"
+            class="startup__myemail blue__color"
             href="mailto:rimttay@gmail.com"
             target="_blank"
             >Email me</a
@@ -80,7 +77,7 @@
         class="network"
         style="white-space: normal; overflow-wrap: break-word; width: 25em"
       >
-        <h3 class="network__title">Architecture Office Network</h3>
+        <h3 class="network__title blue__color">Architecture Office Network</h3>
         <p class="network__text">
           Created a simulation network for an architecture office connecting all
           its departments, implementing a full mesh topology to ensure robust
@@ -91,7 +88,9 @@
         class="database"
         style="white-space: normal; overflow-wrap: break-word; width: 25em"
       >
-        <h3 class="database__title">Blood Donation System Database</h3>
+        <h3 class="database__title blue__color">
+          Blood Donation System Database
+        </h3>
         <p class="database__text">
           Established a comprehensive databse system to ensure data security,
           integrity, and donor safety, enhancing overall efficiency through
@@ -101,9 +100,9 @@
       </div>
     </div>
     <div class="social">
-      <h3 class="social__statement">
+      <h4 class="social__statement">
         Living, learning, & leveling up one day at a time.
-      </h3>
+      </h4>
       <div class="social__list">
         <a href="https://www.linkedin.com/in/reem-tay" target="_blank">
           <i class="fa-brands fa-linkedin-in"></i>
